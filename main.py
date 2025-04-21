@@ -1,5 +1,6 @@
- from fastapi import FastAPI
+from fastapi import FastAPI
 import joblib
+from pydantic import BaseModel
 import numpy as np
 
 app = FastAPI()
