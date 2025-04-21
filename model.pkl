@@ -1,1 +1,3 @@
-joblib.dump(model, 'model.pkl')
+import joblib
+joblib.dump(model, "model.pkl")  # This should save correctly
+
