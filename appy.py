@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the model and scaler
-model = joblib.load('model.pkl')
+model = joblib.load('models/model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # Streamlit UI
