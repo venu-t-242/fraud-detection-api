@@ -1,11 +1,11 @@
-import streamlit as st
 import joblib
+import streamlit as st
 import numpy as np
 
-# Load the model and scaler
+# ✅ Load model and scaler from 'models/' directory
 model = joblib.load('models/model.pkl')
 scaler = joblib.load('models/scaler.pkl')
-# Streamlit UI
+
 st.title("Fraud Detection App")
 
 # Input fields for the features
