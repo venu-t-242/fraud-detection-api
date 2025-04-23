@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the model and scaler
-model = joblib.load('C:\Users\91939\OneDrive\Desktop\models/model.pkl')
+model = joblib.load('models/model.pkl')
 scaler = joblib.load('models/scaler.pkl')
 # Streamlit UI
 st.title("Fraud Detection App")
